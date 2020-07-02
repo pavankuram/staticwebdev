@@ -1,0 +1,158 @@
+body {
+    background-color: #404043;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.heading
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100px;
+    background-image: url('../assets/images/optum-logo.png');
+    background-repeat: no-repeat;
+    background-position-x: 0;
+    background-position-y: 7px;
+    background-size: 212px 80px;
+}
+
+.heading .title
+{
+    color: #FFF;
+    font-size: 22px;
+    position: absolute;
+    bottom: 15px;
+    right: 30px;
+}
+
+.heading .divider
+{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: rgb(177,177,177);
+    background: linear-gradient(90deg, rgba(177,177,177,1) 0%, rgba(177,177,177,0.0) 100%);
+}
+
+.body
+{
+    position: absolute;
+    top: 120px;
+    bottom: 280px;
+    left: 0;
+    right: 0;
+}
+
+#textarea
+{
+    margin: auto;
+    display: block;
+    width: 90%;
+    height: 92%;
+    color: #FFF;
+    background-color: transparent;
+    border-color: #FFF;
+    border-width: 3px;
+    border-radius: 10px;
+    padding: 1%;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.buttonBar 
+{
+    position: absolute;
+    height: 60px;
+    bottom: 180px;
+    left: 0px;
+    right: 0px;
+    margin: 0 4%;
+    text-align: right;
+}
+
+button
+{
+    color: #FFF;
+    width: 120px;
+    height: 40px;
+    font-size: 18px;
+    border: solid 1px #fff;
+    border-radius: 7px;
+    text-align: left;
+    padding: 0 15px;
+    margin-left: 15px;
+}
+
+button.record
+{
+    background-color: rgba(232, 119, 35, 1);
+    background-image: url('../assets/images/mic.png');
+    background-position: 85px 6px;
+    background-repeat: no-repeat;
+    background-size: 8.5%;
+}
+
+button.stop
+{    
+    background-color: rgba(255, 0, 0, 1);
+    background-image: url('../assets/images/stop.png');
+    background-position: 85px 9px;
+    background-repeat: no-repeat;
+    background-size: 15%;
+}
+
+button.retry
+{
+    background-color: rgba(242, 180, 16, 1);
+    background-image: url('../assets/images/retry.svg');
+    background-position: 80px 3px;
+    background-repeat: no-repeat;
+    background-size: 25%;
+}
+
+button.skip
+{
+    background-color: rgba(98, 102, 106, 1);
+    background-image: url('../assets/images/skip.svg');
+    background-position: 77px 4px;
+    background-repeat: no-repeat;
+    background-size: 24%;
+}
+
+button.submit
+{
+    background-color: rgba(137, 139, 141, 1);
+    background-image: url('../assets/images/submit.svg');
+    background-position: 82px 4px;
+    background-repeat: no-repeat;
+    background-size: 23%;
+}
+
+.instructions
+{
+    position: absolute;
+    height: 160px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 2% 4%;
+}
+
+.instructions .header
+{
+    color: #f0b410;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 50px;
+    text-decoration: underline;        
+}
+
+.instructions li
+{
+    color: #AAA;
+    font-size: 15px;
+    line-height: 20px;
+}
